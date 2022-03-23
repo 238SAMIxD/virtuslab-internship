@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-bg-clr: #090c15;
+  --secondary-bg-clr: #233056;
+  --primary-clr: #52591d;
+  --secondary-clr: #fff;
+  --accent-clr: #ccc;
+  --btn-bg-clr: #026e00;
+  --btn-bg-hover-clr: #43853d;
+}
+
+body {
+  background-color: var(--primary-bg-clr);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#root {
+  transition: background-color 150ms ease;
+}
+
+.light {
+  background-color: #e0e0e0 !important;
+}

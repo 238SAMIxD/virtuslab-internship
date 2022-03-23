@@ -1,0 +1,36 @@
+.header {
+  background-color: var(--secondary-bg-clr);
+  padding: 1.5rem 0;
+  margin-bottom: 0.5em;
+}
+
+.header-title {
+  color: var(--secondary-clr);
+}
+
+.header-subtitle {
+  color: var(--accent-clr);
+}
+
+.header-subtitle__link {
+  text-decoration: none;
+  color: inherit;
+  font-style: italic;
+  transition: opacity 150ms ease-in-out;
+}
+
+.header-subtitle__link:hover {
+  opacity: 0.75;
+}
+
+.header-colorMode {
+  display: block;
+  width: 3rem;
+  aspect-ratio: 1;
+  margin: 1rem auto 0;
+  background-image: url("../img/sun.png");
+  background-position: center;
+  background-size: cover;
+  filter: invert(100%);
+  cursor: pointer;
+}
