@@ -127,7 +127,9 @@ if (!isLoaded)
 
 ### 6. (Additional) Dark and light theme.
 
-Simple switch between light and dark mode.
+![Theme prewiev](https://github.com/238SAMIxD/virtuslab-internship/blob/main/img/theme.png)
+
+Simple switch between light and dark mode with transition.
 
 ```js
 function themeChange(e) {
