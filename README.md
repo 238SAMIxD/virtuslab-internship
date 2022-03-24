@@ -143,3 +143,41 @@ function themeChange(e) {
     : root.classList.add("light");
 }
 ```
+
+## Hosting website application
+
+As this is _React_ app, it can be easily hosted by _Node.js_.
+
+### Installing
+
+_NPM_ modules should be downloaded by using a command:
+
+```bash
+npm install
+```
+
+The following dependencies will be installed:
+
+```json
+"dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.4"
+}
+```
+
+### Running
+
+To start the application there are several methods:
+
+```bash
+npm start
+npm run start
+react-scripts start
+```
+
+Browser will start and head to `http://localhost:3000/`.
