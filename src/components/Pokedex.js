@@ -31,7 +31,6 @@ function show( e ) {
             height.innerText = `Height: ${pokemon.height/10} m`;
 
             document.body.style.overflowY = "hidden";
-            modal.style.display = "flex";
             modal.style.top = `${window.scrollY}px`;
             modal.style.bottom = `-${window.scrollY}px`;
         });

@@ -6,7 +6,8 @@ function close( e ) {
     if( !e.target.className.includes("modal") ) return;
 
     document.body.style.overflowY = "scroll";
-    modal.style.display = "none";
+    modal.style.top = "-200%";
+    modal.style.bottom = "200%";
 
     document.querySelectorAll(".modal .container-pokemon__data-type").forEach( element => element.remove() );
 }
